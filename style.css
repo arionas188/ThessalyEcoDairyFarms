@@ -32,6 +32,17 @@ header p {
 .custom-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='green' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+.transparent-blur-bg {
+    background-color: rgba(255, 255, 255, 0.2); /* Λευκό διαφάνεια */
+    backdrop-filter: blur(4px); /* Ρύθμιση θολούρας */
+    -webkit-backdrop-filter: blur(4px); /* Υποστήριξη για Safari */
+}
+.transparent1-blur-bg {
+    background-color: rgba(255, 255, 255, 0.2); /* Λευκό διαφάνεια */
+    backdrop-filter: blur(1px); /* Ρύθμιση θολούρας */
+    -webkit-backdrop-filter: blur(1px); /* Υποστήριξη για Safari */
+}
+
 .section1 {
     background-color: rgb(242,241,229);
     height: 50%;                              
@@ -100,7 +111,9 @@ header p {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: rgb(25,135,83); /* Set a background color */
+    background-color: rgb(25,135,83, 0.7); /* Set a background color */
+    backdrop-filter: blur(5px); /* Ρύθμιση θολούρας */
+    -webkit-backdrop-filter: blur(5px); /* Υποστήριξη για Safari */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
