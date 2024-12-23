@@ -5,7 +5,7 @@ body {
     
 }
 header {
-    background-image: url('/ThessalyEcoDairyFarms/images/Sheep1.jpg');
+    background-image: url('images/Sheep1.jpg');
     background-position: center;  
     background-size: cover;                     /* Εξασφαλίζει ότι το background καλύπτει πλήρως το header */
     background-repeat: no-repeat;               /* Αποτρέπει την επανάληψη της εικόνας */
