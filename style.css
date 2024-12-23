@@ -1,10 +1,11 @@
 body {
     height: auto;
-    font-family: Zen Old Mincho , Roboto Static , Sofia Sans Extra Condensed , Sofia Sans Condensed;
+    font-family: Roboto Static , Sofia Sans Extra Condensed , Sofia Sans Condensed;
+    
     
 }
 header {
-    background-image: url('images/Sheep1.jpg');
+    background-image: url('/ThessalyEcoDairyFarms/images/Sheep1.jpg');
     background-position: center;  
     background-size: cover;                     /* Εξασφαλίζει ότι το background καλύπτει πλήρως το header */
     background-repeat: no-repeat;               /* Αποτρέπει την επανάληψη της εικόνας */
@@ -24,6 +25,9 @@ header p {
 }
 .shadow-black {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); /* Μεγάλο blur και spread */
+}
+.text-shadow {
+    text-shadow: 1px 1px 4px white;
 }
 .custom-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='green' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
